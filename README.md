@@ -39,36 +39,6 @@ mumbai-air-quality-analytics/
 
 ---
 
-## ⚙️ Setup Instructions
-
-1. **Clone Repository**
-```bash
-git clone https://github.com/yourusername/mumbai-air-quality-analytics.git
-cd mumbai-air-quality-analytics
-
-2. Create Virtual Environment & Install Dependencies
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-
-pip install -r requirements.txt
-
-3. Data Preparation
-Place raw dataset in data/raw/
-Run feature engineering:
-python scripts/build_features.py
-This will generate data/processed/mumbai_air_quality_clean.csv
-
-4.Run Notebooks
-01_exploratory_analysis.ipynb → Data cleaning, summary stats, EDA, and visualizations
-02_modeling_forecasting.ipynb → ARIMA/Prophet forecasting, business insights
-
-5.SQL Analytics
-Open sql/examples.sql in SQLite/Postgres/MySQL and run queries for extra insights
-
-6.Dashboard
-Open dashboard/powerbi_dashboard.pbix or dashboard/tableau_dashboard.twbx
-Interactive view of air quality trends, hotspots, and health risk zones
 
 
 Key Features
@@ -77,7 +47,7 @@ Key Features
 ✅ Exploratory Data Analysis (heatmaps, trends, station-wise comparisons)
 ✅ SQL Analytics for querying trends & KPIs
 ✅ Forecasting Models (ARIMA, Prophet) to predict future PM2.5 levels
-✅ Interactive Dashboards (Power BI / Tableau)
+✅ Interactive Dashboards (Power BI )
 ✅ Business Recommendations
 
 Business Impact
